@@ -1,0 +1,6 @@
+Hey <%= @name %>,
+
+I thought you'd appreciate this file.
+
+Regards,
+Chad

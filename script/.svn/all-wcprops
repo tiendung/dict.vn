@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/thieungu/!svn/ver/979/com.thieungu.dictionary/trunk/script
+END
+console
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/console
+END
+breakpointer
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/script/breakpointer
+END
+server
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/server
+END
+destroy
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/destroy
+END
+runner
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/runner
+END
+about
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/about
+END
+generate
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/generate
+END
+server_check.sh
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/979/com.thieungu.dictionary/trunk/script/server_check.sh
+END
+plugin
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/script/plugin
+END

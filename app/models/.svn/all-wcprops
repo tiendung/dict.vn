@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/thieungu/!svn/ver/962/com.thieungu.dictionary/trunk/app/models
+END
+item.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/thieungu/!svn/ver/937/com.thieungu.dictionary/trunk/app/models/item.rb
+END
+meaning.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/thieungu/!svn/ver/928/com.thieungu.dictionary/trunk/app/models/meaning.rb
+END
+idiom.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/models/idiom.rb
+END
+guestbook.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/thieungu/!svn/ver/953/com.thieungu.dictionary/trunk/app/models/guestbook.rb
+END
+cache.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/thieungu/!svn/ver/960/com.thieungu.dictionary/trunk/app/models/cache.rb
+END
+spammer.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/models/spammer.rb
+END
+suggestion.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/thieungu/!svn/ver/962/com.thieungu.dictionary/trunk/app/models/suggestion.rb
+END
+wordlist.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/960/com.thieungu.dictionary/trunk/app/models/wordlist.rb
+END
+json.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/models/json.rb
+END
+example.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/models/example.rb
+END
+word.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/thieungu/!svn/ver/960/com.thieungu.dictionary/trunk/app/models/word.rb
+END
+synant.rb
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/models/synant.rb
+END

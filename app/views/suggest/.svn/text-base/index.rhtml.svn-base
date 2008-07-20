@@ -1,0 +1,7 @@
+<% if @suggestions %>
+  <h3><%= @written_form %></h3>
+  <% @suggestions.each do |s| %>
+    <%= s.written_form + "  ||  " + s.summary %>
+    <br />
+  <% end %>
+<% end %>

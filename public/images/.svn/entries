@@ -1,0 +1,85 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/public/images
+http://tools.assembla.com/svn/thieungu
+
+
+
+2007-10-30T08:24:23.138336Z
+876
+dangkhoa
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+background
+dir
+
+logos
+dir
+
+others
+dir
+
+pixel.gif
+file
+
+
+
+
+2008-07-20T10:23:59.000000Z
+325472601571f31e1bf00674c368d335
+2007-10-25T16:29:49.636374Z
+817
+dangkhoa
+has-props
+
+Thumbs.db
+file
+
+
+
+
+2008-07-20T10:23:59.000000Z
+12f1c211fdeecb6090765b0428af68c9
+2007-10-25T16:30:21.000157Z
+818
+dangkhoa
+has-props
+
+s.gif
+file
+
+
+
+
+2008-07-20T10:23:59.000000Z
+fc94fb0c3ed8a8f909dbc7630a0987ff
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+has-props
+
+button
+dir
+
+headers
+dir
+
+icons
+dir
+

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/thieungu/!svn/ver/764/com.thieungu.dictionary/trunk/db/migrate/migration_scripts
+END
+revert.sh
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/thieungu/!svn/ver/756/com.thieungu.dictionary/trunk/db/migrate/migration_scripts/revert.sh
+END
+migrate-prod.sh
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/thieungu/!svn/ver/764/com.thieungu.dictionary/trunk/db/migrate/migration_scripts/migrate-prod.sh
+END
+migrate-dev.sh
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/thieungu/!svn/ver/764/com.thieungu.dictionary/trunk/db/migrate/migration_scripts/migrate-dev.sh
+END

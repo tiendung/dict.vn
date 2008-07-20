@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit
+END
+item_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/item_test.rb
+END
+meaning_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/meaning_test.rb
+END
+idiom_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/idiom_test.rb
+END
+suggestion_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/suggestion_test.rb
+END
+wordlist_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/wordlist_test.rb
+END
+json_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/json_test.rb
+END
+example_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/example_test.rb
+END
+word_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/unit/word_test.rb
+END

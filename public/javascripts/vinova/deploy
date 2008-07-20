@@ -1,0 +1,7 @@
+#! /bin/sh
+
+scp vinova.pack.js thieungu@75.126.89.28:dictapp/public/javascripts/vinova/vinova.js
+scp vinova.pack.js thieungu@75.126.89.28:public_html/vinova/vinova.js
+scp ./lib/jquery-1.2.1.js thieungu@75.126.89.28:public_html/vinova/lib/
+
+scp vinova.js index.html test.js thieungu@75.126.89.28:public_html/vinova/

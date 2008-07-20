@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/thieungu/!svn/ver/983/com.thieungu.dictionary/trunk/data
+END
+wget.exe
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/data/wget.exe
+END
+nwords.yaml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/thieungu/!svn/ver/974/com.thieungu.dictionary/trunk/data/nwords.yaml
+END
+output.txt
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/thieungu/!svn/ver/983/com.thieungu.dictionary/trunk/data/output.txt
+END

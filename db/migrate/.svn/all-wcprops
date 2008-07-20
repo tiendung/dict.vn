@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/thieungu/!svn/ver/984/com.thieungu.dictionary/trunk/db/migrate
+END
+015_add_suggestion_data.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/thieungu/!svn/ver/928/com.thieungu.dictionary/trunk/db/migrate/015_add_suggestion_data.rb
+END
+006_create_sessions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/thieungu/!svn/ver/750/com.thieungu.dictionary/trunk/db/migrate/006_create_sessions.rb
+END
+008_create_suggestions.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/thieungu/!svn/ver/797/com.thieungu.dictionary/trunk/db/migrate/008_create_suggestions.rb
+END
+004_create_examples.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/thieungu/!svn/ver/750/com.thieungu.dictionary/trunk/db/migrate/004_create_examples.rb
+END
+002_create_items.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/thieungu/!svn/ver/803/com.thieungu.dictionary/trunk/db/migrate/002_create_items.rb
+END
+013_fix_idiom_links.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/thieungu/!svn/ver/810/com.thieungu.dictionary/trunk/db/migrate/013_fix_idiom_links.rb
+END
+017_add_cache_data.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/thieungu/!svn/ver/928/com.thieungu.dictionary/trunk/db/migrate/017_add_cache_data.rb
+END
+009_add_english_vietnamese_dictionary.rb
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/thieungu/!svn/ver/797/com.thieungu.dictionary/trunk/db/migrate/009_add_english_vietnamese_dictionary.rb
+END
+016_create_caches.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/thieungu/!svn/ver/928/com.thieungu.dictionary/trunk/db/migrate/016_create_caches.rb
+END
+001_make_unicode_friendly.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/thieungu/!svn/ver/745/com.thieungu.dictionary/trunk/db/migrate/001_make_unicode_friendly.rb
+END
+011_add_wordnet_english_english_dict.rb
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/thieungu/!svn/ver/797/com.thieungu.dictionary/trunk/db/migrate/011_add_wordnet_english_english_dict.rb
+END
+014_change_double_single_quote_to_html_code.rb
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/thieungu/!svn/ver/797/com.thieungu.dictionary/trunk/db/migrate/014_change_double_single_quote_to_html_code.rb
+END
+012_fix_word_links.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/thieungu/!svn/ver/856/com.thieungu.dictionary/trunk/db/migrate/012_fix_word_links.rb
+END
+010_add_vietnamese_english_dict.rb
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/thieungu/!svn/ver/797/com.thieungu.dictionary/trunk/db/migrate/010_add_vietnamese_english_dict.rb
+END
+003_create_meanings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/thieungu/!svn/ver/770/com.thieungu.dictionary/trunk/db/migrate/003_create_meanings.rb
+END
+007_create_synants.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/thieungu/!svn/ver/750/com.thieungu.dictionary/trunk/db/migrate/007_create_synants.rb
+END
+005_create_idioms_words.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/thieungu/!svn/ver/750/com.thieungu.dictionary/trunk/db/migrate/005_create_idioms_words.rb
+END

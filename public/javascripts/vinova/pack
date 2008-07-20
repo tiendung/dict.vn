@@ -1,0 +1,4 @@
+#! /bin/sh
+java -jar build/js.jar build/pack.js vinova.js
+# cp vinova.js vinova.pack.js
+# ruby build/pack.rb

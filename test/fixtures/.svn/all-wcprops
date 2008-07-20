@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures
+END
+items.yml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/items.yml
+END
+meanings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/meanings.yml
+END
+idioms.yml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/idioms.yml
+END
+suggestions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/suggestions.yml
+END
+wordlists.yml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/wordlists.yml
+END
+jsons.yml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/jsons.yml
+END
+examples.yml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/examples.yml
+END
+words.yml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/fixtures/words.yml
+END

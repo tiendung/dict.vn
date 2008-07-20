@@ -1,0 +1,2 @@
+#! /bin/sh
+java -jar build/yuicompressor-2.2.4.jar --charset UTF-8 vinova.js > vinova.min.js

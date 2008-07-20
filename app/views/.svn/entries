@@ -1,0 +1,52 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/app/views
+http://tools.assembla.com/svn/thieungu
+
+
+
+2008-05-28T10:05:48.195139Z
+981
+dinhhai
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+layouts
+dir
+
+spam
+dir
+
+suggest
+dir
+
+guestbook
+dir
+
+dict
+dir
+
+spammer
+dir
+
+generator
+dir
+
+lookup
+dir
+

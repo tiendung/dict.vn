@@ -1,0 +1,3 @@
+class Idiom < Item
+  has_and_belongs_to_many :words
+end

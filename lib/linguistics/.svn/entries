@@ -1,0 +1,67 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/lib/linguistics
+http://tools.assembla.com/svn/thieungu
+
+
+
+2007-10-22T08:40:33.979237Z
+769
+dinhhai
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+linguistics.rb
+file
+
+
+
+
+2008-07-20T10:23:11.000000Z
+1a9562d16e43e6c34d12a65da1069942
+2007-10-22T08:40:33.979237Z
+769
+dinhhai
+
+en
+dir
+
+en.rb
+file
+
+
+
+
+2008-07-20T10:23:11.000000Z
+1d87bb1855b1b024fca042565976ccd2
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+
+iso639.rb
+file
+
+
+
+
+2008-07-20T10:23:11.000000Z
+c363a9c22a1a4bc02aeb989a67d6da3f
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+

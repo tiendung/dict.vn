@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/thieungu/!svn/ver/975/com.thieungu.dictionary/trunk/app/controllers
+END
+application.rb
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/thieungu/!svn/ver/966/com.thieungu.dictionary/trunk/app/controllers/application.rb
+END
+spam_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/thieungu/!svn/ver/751/com.thieungu.dictionary/trunk/app/controllers/spam_controller.rb
+END
+suggest_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/thieungu/!svn/ver/751/com.thieungu.dictionary/trunk/app/controllers/suggest_controller.rb
+END
+dict_controller.rb.nocache
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/thieungu/!svn/ver/897/com.thieungu.dictionary/trunk/app/controllers/dict_controller.rb.nocache
+END
+guestbook_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/thieungu/!svn/ver/951/com.thieungu.dictionary/trunk/app/controllers/guestbook_controller.rb
+END
+sms_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/thieungu/!svn/ver/975/com.thieungu.dictionary/trunk/app/controllers/sms_controller.rb
+END
+dict_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/thieungu/!svn/ver/960/com.thieungu.dictionary/trunk/app/controllers/dict_controller.rb
+END
+speak_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/thieungu/!svn/ver/972/com.thieungu.dictionary/trunk/app/controllers/speak_controller.rb
+END
+generator_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/thieungu/!svn/ver/751/com.thieungu.dictionary/trunk/app/controllers/generator_controller.rb
+END
+download_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/thieungu/!svn/ver/751/com.thieungu.dictionary/trunk/app/controllers/download_controller.rb
+END
+lookup_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/app/controllers/lookup_controller.rb
+END

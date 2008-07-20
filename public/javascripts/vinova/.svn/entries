@@ -1,0 +1,139 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/public/javascripts/vinova
+http://tools.assembla.com/svn/thieungu
+
+
+
+2008-06-15T00:29:54.354408Z
+986
+dungtn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+build
+dir
+
+vinova.min.js
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+79835967e972bd835eaf1c989d55653b
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+
+utils
+dir
+
+min
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+15c8bf4c51a6e7e5f7407aa81f0229f0
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+has-props
+
+lib
+dir
+
+index.html
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+c356795c6430b2fd9b946012c8fa1330
+2008-06-15T00:09:03.495428Z
+985
+dungtn
+
+test.js
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+d99e7994176440f9b484bff8f7415b93
+2007-12-29T06:52:24.063156Z
+964
+dungtn
+
+vinova.pack.js
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+ea8edbd1ca2c48ee69b69d3bf754f9f2
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+
+deploy
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+dcbb590cc39ea970e1b814b14c0b9f8b
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+has-props
+
+_save
+dir
+
+vinova.js
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+ab135d7e710d871a5c30ae75902b12f4
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+
+pack
+file
+
+
+
+
+2008-07-20T10:24:27.000000Z
+4e93b7be19f1b6bc1e5aeef929d61b4e
+2007-12-29T16:09:38.310163Z
+965
+dungtn
+has-props
+

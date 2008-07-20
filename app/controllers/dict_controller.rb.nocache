@@ -1,0 +1,131 @@
+require "spell_corrector"
+
+class DictController < ApplicationController  
+  attr_accessor :word
+  
+  def index
+    return unless params[:query]
+	
+	  query = params[:query].strip.downcase.gsub(/quot;/, "&quot;").gsub(/%20/, " ")  
+	
+  	ee_word = Word.look_up_with_dict_type(query, 'EE_DICT')
+  	ve_word = Word.look_up_with_dict_type(query, 'VE_DICT')
+  	ev_word = Word.look_up_with_dict_type(query, 'EV_DICT')  	  
+    
+    returned_json = "{ve_dict: " + get_json(ve_word, query) + ", ev_dict: " + get_json(ev_word, query) + ", ee_dict: " + get_json(ee_word, query) 
+
+  	if ev_word
+  		returned_json += ", idioms: " + ev_word.getIdiomsJson + ", thesaurus: " + ev_word.getThesaurusJson   		  		
+  	end  				
+	
+    @wordlist = add_to_wordlist(ev_word, ee_word, ve_word) # recent words
+	
+    render :text => returned_json + "}", :type => "text/javascript"
+  end
+
+  
+	def get_json(word, query)
+		if word 
+			json = word.get_json
+		else 
+			json = "{id:0, written_form:\"#{query}\", pronunciation:\"\"}"
+		end
+		return json
+  end  
+  
+  
+  # @author: dinhhai
+  # to keep list of recent word in session  
+  def add_to_wordlist( ev_word, ee_word, ve_word )    
+    suggestion = nil
+	  if ev_word  # session words
+	    suggestion =  ev_word.suggestion 
+    elsif ee_word
+      suggestion = ee_word.suggestion 
+    elsif ve_word 
+      suggestion = ve_word.suggestion 
+    end
+    
+    @wordlist = find_wordlist
+    @wordlist.add_word(suggestion.id) if suggestion
+    return @wordlist
+  end
+  
+  # @author: dinhhai
+  # get recent words in session
+  def find_wordlist
+    session[:wordlist] ||= Wordlist.new
+  end
+
+  # @author Dang Khoa + dinhhai
+  # This method is to retrieve the error suggestion in Json object
+  def error_suggestion    
+    word = params[:query]
+    sc = SpellCorrector.new
+    json_string = sc.get_suggestion_words_in_json( word )
+    render :text => json_string, :type => "text/javascript"    
+  end
+  
+  def find_summary	
+  	word = params[:query].strip.downcase
+  	wordObj = Word.find( :first, :conditions => ["written_form = ?", params[:query]])
+  	wordObj = Word.find( wordObj.source_id ) if wordObj and wordObj.source_id
+  	if wordObj
+  		summary = wordObj.create_summary
+  	end 
+  	
+  	jsonStr = ""  	
+  	if summary
+  		jsonStr = "{summary: \"" + summary + "\"}"
+  	else
+  		jsonStr = "{summary: ''}"
+  	end  	
+  	render :text => jsonStr, :type => "text/javascript"  	
+  end
+
+  # @author Dang Khoa + dinhhai
+  # To get the list of recent look up words
+  def recent_look_ups   	
+    @wordlist = find_wordlist    
+    if @wordlist 
+      jsonStr = @wordlist.get_json
+    else
+      jsonStr = "{totalCount: 0, suggestions: []}"	    
+    end  
+    render :text => jsonStr, :type => "text/javascript"    
+  end  
+  
+  # @author Dang Khoa
+  # To get the thesaurus Json string of a word
+  def find_thesaurus
+    query = params[:query].strip.downcase   
+    @word = Word.find( :first, :conditions => ["written_form = ?", query] )
+    @word = Word.find( @word.source_id ) if @word and @word.source_id    
+    render :text => @word.getThesaurusJson, :type => "text/javascript" 
+  end
+  
+  # @author Dang Khoa
+  # To get the thesaurus Json string of a word
+  def find_idioms  
+    query = params[:query].strip.downcase   
+    @word = Word.find( :first, :conditions => ["written_form = ?", query] )
+    @word = Word.find( @word.source_id ) if @word and @word.source_id    
+    render :text => @word.getIdiomsJson, :type => "text/javascript" 
+  end   
+	
+	def find_bookmarklet		
+		word = params[:query].strip.downcase
+		wordObj = Word.look_up(word)
+		
+		summary = wordObj.create_summary if wordObj
+	
+		jsonStr = ""		
+		if summary
+			jsonStr = "{summary: \"" + summary + "\"}"
+		else
+			jsonStr = "{summary: ''}"
+		end
+		
+		render :text => "var thieungudata = #{jsonStr};", :type => "text/javascript"  		
+	end
+end

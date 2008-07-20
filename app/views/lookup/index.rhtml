@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+  <title>Dict</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<%= javascript_include_tag "jquery", "utilities", :defaults %>
+	<%= stylesheet_link_tag "dict" %>
+	    
+</head>
+<body>
+<iframe style="height: 1px; width: 1px; position: absolute;" id="soundFrame" frameborder="0"></iframe>
+<div id="search">
+  <form id="search_form">
+    tìm từ 
+    <%= text_field_with_auto_complete :suggestion, :written_form %>
+  </form>
+</div>
+
+<%= 
+  if @json_string != "not found"
+    render :partial => "show"
+  else
+    "<br />không tìm thấy từ '#{@written_form}'"
+  end  
+%>
+
+<div id="content">
+</div>
+
+<h3> Các từ vừa tra </h3>
+<% 
+  if @wordlist
+    for item in @wordlist.wordlist
+%>
+      <li> <%= h(item) if item != nil %> </li>
+<%  
+    end 
+  end
+%>
+
+<h3> Các từ gần giống </h3>
+<% 
+  if @related_word_list != nil
+    for item in @related_word_list
+%>
+      <li> <%= h(item) if item != nil %> </li>
+<%  
+    end 
+  end
+%>
+</body>

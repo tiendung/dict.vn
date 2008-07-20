@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional
+END
+suggest_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional/suggest_controller_test.rb
+END
+dict_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional/dict_controller_test.rb
+END
+speak_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional/speak_controller_test.rb
+END
+generator_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional/generator_controller_test.rb
+END
+lookup_controller_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/test/functional/lookup_controller_test.rb
+END

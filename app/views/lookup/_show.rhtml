@@ -1,0 +1,175 @@
+<script type="text/javascript">
+/*
+ * English-Vietnamese Dict App
+ * last update: 20070617
+ * dungtn@gmail.com
+ */
+
+
+function playIt(soundUrl) {
+  var IFrameObj = document.getElementById("soundFrame");
+	IFrameObj.src = "about:blank";
+	IFrameObj.src = soundUrl;
+	setTimeout("endPlay()", 10000);
+}
+
+function endPlay() {
+  var IFrameObj = document.getElementById("soundFrame");
+	IFrameObj.src = "about:blank"; //so refresh won't replay sound
+}
+
+// namespace for thieungu dict app
+(function () {
+
+jQuery.noConflict();
+
+jQuery(document).ready( function() {
+  addContent( <%= @json_string %> );
+});
+
+var audioUrlTemplate = "'http://demos.cepstral.com/cepstral/demos/demo.cgi/cepstral.wav?content={text}&voice=David&rate=170&pitch=1&effect=none&submit=Say+It%21&sid=DFYUSTBDGKbjMUsKOwZw0V9tKDIYo1VRgH'";
+
+var embedAudioTemplate = '<embed src={audioFileUrl} autostart=false width=0 height=0 id="sound_file" enablejavascript="true"><form><input type="button" value="phát âm" onClick="function() {document.getElementById( sound_file ).Play();}"></form>';
+
+var soundFrameTemplate = '<iframe style="height: 1px; width: 1px; position: absolute;" id="soundFrame" frameborder="0"></iframe>';
+
+var speakButtonTemplate = '<span style="cursor: pointer;" onmouseover="status=\'Click to hear pronunciation\';return true;" onmouseout="status=\'\';return true;" onclick="playIt({audioFileUrl})"><img src="images/pron.gif" alt="pronunciation" align="middle" border="0"></span>';
+
+function getAudioElements( text ) {
+  var audioFileUrl = Util.supplant( audioUrlTemplate, {text:text} );
+  return Util.jQant( speakButtonTemplate, {audioFileUrl:audioFileUrl} );
+  return Util.jQant( embedAudioTemplate, {audioFileUrl:audioFileUrl} );
+}
+
+function addContent( json ) {
+  var word = new Word(json);
+  jQuery("#content")
+    .empty()
+    .append( word.createElement() );
+}
+
+var notice = {
+  template: {
+    notFound: '<h4> không tìm thấy từ "{written_form}"</h4>',
+    querying: '<h4> đang tìm từ "{written_form}"</h4>'
+  },
+  
+  notFound: function ( written_form ) {
+    jQuery("#content")
+      .empty()
+      .append( Util.jQant(template.notFound, {written_form: written_form} ) );
+  },
+  
+  querying: function( written_form ) {
+    jQuery("#content")
+      .empty()
+      .append( Util.jQant(template.querying, {written_form: written_form} ) );
+  }
+};
+
+function getWord ( written_form ) {
+  notice.querying( written_form );
+  jQuery.getJSON( "lookup?query=" + written_form, function( json ) {
+    addContent( json );
+  });
+
+  jQuery("#content").ajaxError( function () {
+    notice.notFound( written_form );
+  });
+}
+
+// class Word
+function Word( json ) {
+	jQuery.extend(this, json );
+
+  // move all HTML strings to template container
+  var template = {
+    word: {
+  	  wrapper : "<div id='word_content'></div>",
+  	  title   : "<div id='word_title'><span>{written_form}</span> /{pronunciation}/</div>"
+    },
+    meaning: {
+      wrapper : "<div><h4>Nghĩa</h4><ol></ol></div>",
+      content : "<li>{part_of_speech}: {explanation}</li>"
+    },
+    example: {
+      // [todo] move "style" to separate css file
+      anchor  : "<a href='#' style='display:inline' class='tooltip'>&nbsp;[&#187;]</a>",
+      wrapper : "<ul class='examples'></ul>",
+      title   : "<span><b>ví dụ</b><br /></span>",
+  	  content : "<li><div>{written_form}</div>{explanation}</li>"
+    },
+  	idiom: {
+  	  // [todo] refactor to using word format because one idiom === one word
+      wrapper : "<div id='idioms'><h4>Thành ngữ</h4></div>",
+      list    : "<ol></ol>",
+      item    : {	 
+                  title : "<li>{written_form}</li>",
+                  list  :	"<ul></ul>"
+                }
+    }
+  };
+	/* private methods */
+	function createExampleElem( example ) {
+	  return Util.jQant( template.example.content, example);
+	}
+	
+  function createExampleListElem( examples ) {
+		var exampleList = jQuery( template.example.wrapper );
+		jQuery.each( examples, function(i, example){
+			exampleList.append( createExampleElem( example) );
+		});  
+		return exampleList;
+  }
+
+	function createMeaningElem( meaning ) {
+		var meaningElem = Util.jQant( template.meaning.content, meaning );
+		if (meaning.examples.length == 0) return meaningElem;
+
+		var exampleListElem = createExampleListElem( meaning.examples );
+		var anchor = jQuery( template.example.anchor ).appendTo( meaningElem );
+		jQuery( template.example.title ).append( exampleListElem ).appendTo( anchor );
+		return meaningElem;
+	}
+	
+	function createMeaningListElem( meanings ) {
+		var meaningList = jQuery( template.meaning.wrapper );
+		jQuery.each( meanings, function(i, meaning ){
+			meaningList.append(	createMeaningElem( meaning ) );
+		});  
+		return meaningList;
+	}
+
+	function createIdiomElem( idiom ) {
+		var idiomElem   = Util.jQant( template.idiom.item.title, idiom );
+		var meaningList = jQuery( template.idiom.item.list ).appendTo( idiomElem );
+		jQuery.each( idiom.meanings, function(i, meaning ){
+			meaningList.append(	createMeaningElem( meaning ) );
+		});  
+		return idiomElem;
+	}
+	
+	function createIdiomListElem( idioms ) {
+		var idiomDiv  = jQuery( template.idiom.wrapper );
+		var idiomList = jQuery( template.idiom.list ).appendTo( idiomDiv );
+		jQuery.each(idioms, function(i, idiom ){
+			idiomList.append( createIdiomElem( idiom) );
+		});
+		return idiomDiv;
+	}
+
+	/* privileged method */
+	this.createElement = function() {
+		var elem = jQuery( template.word.wrapper );
+		elem.append( Util.supplant( template.word.title, this) );
+		elem.append( getAudioElements( this.written_form ) );
+		elem.append( createMeaningListElem( this.meanings) );
+		if (this.idioms.length > 0)
+			elem.append( createIdiomListElem( this.idioms) );
+		return elem;
+	}
+}
+
+})();
+
+</script>

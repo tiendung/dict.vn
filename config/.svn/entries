@@ -1,0 +1,106 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/config
+http://tools.assembla.com/svn/thieungu
+
+
+
+2008-01-03T14:02:29.867455Z
+974
+dungtn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+routes.rb
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+25385113ae311a555ebafd59e127050f
+2007-12-30T01:34:28.871962Z
+966
+dungtn
+
+database.yml
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+5e59ae8c90d2aa236f75567e15973d50
+2008-01-03T14:02:29.867455Z
+974
+dungtn
+
+database.yml.sqlite
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+4a8097bd98fc30286b07fc7e098ba14e
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+
+boot.rb
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+62fe46fd028f9df081e4ec9eb85968c0
+2007-12-30T01:34:28.871962Z
+966
+dungtn
+
+initializers
+dir
+
+environment.rb
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+b778fa19506da58f9cbc820abdfe26a8
+2007-12-30T01:34:28.871962Z
+966
+dungtn
+
+environments
+dir
+
+database.yml.mysql
+file
+
+
+
+
+2008-07-20T10:23:10.000000Z
+869dfba31ea9f6b1c90eba1c8a3c34e5
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+

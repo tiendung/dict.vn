@@ -1,0 +1,282 @@
+.tn-word-extend-meaning {
+    background-image:url(../images/icons/script_link.png) !important;
+}
+
+.tn-meaning-search-again {
+    background-image:url(../images/icons/book_previous.png) !important;
+}
+
+.tn-meaning-speaker {
+    background-image:url(../images/icons/sound.png) !important;
+}
+
+.tn-icon-dict {
+    background-image:url(../images/icons/book_open.png) !important;
+}
+
+.tn-icon-message{
+    background-image:url(../images/icons/comment.png) !important;
+}
+
+.sign-guestbook  .x-btn-text {
+	background-image:url(../images/icons/comment.png) !important;
+}
+
+.tn-meaning-save {
+    background-image:url(../images/icons/page_copy.png) !important;
+}
+
+.tn-thieungu-logo {
+	background-image:url(../images/logos/logo.png) !important;
+}
+
+.tn-error-suggestion {
+	background-image:url(../images/icons/lightning.png) !important;
+}
+
+.tn-using-tips {
+	background-image:url(../images/icons/lightbulb.png) !important;	
+}
+
+.tn-thieungu-notepad {
+	background-image:url(../images/icons/folder_edit.png) !important;
+}
+
+.tn-meaning-leaf {
+    background-image:url(../images/icons/word_types/tick.png) !important;
+}
+
+.pop-out-icon {
+    background-image:url(../images/icons/application_side_contract.png) !important;
+}
+
+.pop-in-icon {
+    background-image:url(../images/icons/application_side_expand.png) !important;
+}
+
+.pop-in-icon {
+    background-image:url(../images/icons/application_side_expand.png) !important;
+}
+
+
+
+div.meaning-header {
+	font-weight: 800;
+	color: #444444;
+	font-size: 1.2em;
+}
+
+div.error-suggestion-header {
+	
+	font-weight: 800;
+	color: #444444;
+	font-size: 1.1em;
+	
+}
+
+div.error-suggestion-word {
+	
+	position: relative;
+	left: 4px;
+	margin-left: 10px;
+	font-weight: 800;
+	color: #15428b;
+	
+}
+
+div.error-suggestion-summary {
+	
+	margin-left: 10px;
+	
+}
+
+div.meaning-explanation {
+	margin-left: 10px;
+	font-weight: 800;
+	color: #15428b;
+}
+
+div.meaning-example {
+
+	margin-left: 10px;
+}
+
+.search-item {
+    font:normal 11px tahoma, arial, helvetica, sans-serif;
+    padding:3px 1px 3px 10px;
+    border:1px solid #fff;
+    border-bottom:1px solid #eeeeee;
+    white-space:normal;
+    color:#555;
+}
+.search-item h3 {
+    display:block;
+    font:inherit;
+    font-weight:bold;
+    color:#222;
+}
+
+.search-item h3 span {
+    float: right;
+    font-weight:normal;
+    margin:0 0 1px 5px;
+    width:100px;
+    display:block;
+    clear:none;
+}
+
+#class .loading-indicator {
+	font-size:12px;
+	height:18px;
+}
+
+.loading-indicator {
+    font-size:8pt;
+    background-image:url(../javascripts/ext_2.0a/resources/images/default/grid/loading.gif);
+    background-repeat: no-repeat;
+    background-position:top left;
+    padding-left:20px;
+	height:18px;
+	text-align:left;
+}
+
+#loading{
+	position:absolute;
+	left:45%;
+	top:40%;
+	border:1px solid #6593cf;
+	padding:2px;
+	background:#c3daf9;
+	width:150px;
+	text-align:center;
+	z-index:20001;
+}
+#loading .loading-indicator {
+	border:1px solid #a3bad9;
+	background:white url(block-bg.gif) repeat-x;
+	color:#003366;
+	font:bold 13px tahoma,arial,helvetica;
+	padding:10px;
+	margin:0;
+}
+
+.x-layout-collapsed-east {
+    background-image:url(../images/headers/englishenglishText.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.x-layout-collapsed-east-ie6 {
+    progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true,sizingMethod=crop,src=../images/headers/englishenglishText.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+
+.x-layout-collapsed-south {
+    background-image:url(../images/headers/idiomsandthesaurusText.png);
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+.tn-thieungu-bubble {
+	
+	background-image:url(../images/logos/bubble.png);
+	width: 220px;
+	height: 120px;
+}
+
+.text-in-bubble {
+	position: relative; 
+	top: 29px; 
+	left: 20px; 
+	font-size: 1em;
+	width: 180px;
+}
+
+a:link.normal, a:visited.normal {
+	color: #5980cf;
+	text-decoration: none;
+}
+
+a:hover.normal {
+	text-decoration: underline;
+}
+
+a:link.main-menu, a:visited.main-menu {
+	
+	color:green;
+	font:bold 13px tahoma,arial,helvetica;
+	text-decoration: underline;
+	margin:0;
+	
+}
+
+a:hover.main-menu {
+	
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+div.tn-team-image {
+	background:url(../images/others/team.png) no-repeat;
+	display: inline;
+	float: right;
+	margin-left: 3px;
+	width: 80px;
+	height: 45px;
+	margin-top: -30px;
+	
+}
+
+div.using-tips-content {
+	
+	font-size: 1.1em; 
+	font-family:verdana,tahoma,helvetica; 
+	text-align: justify;
+	
+}
+
+#DICTIONARY_SEARCH_FIELD {
+	font-size: 1.3em !important;
+	padding-top: 2.5px;
+	font-weight: 500 !important;
+	font-family:verdana; 
+	height: 26px !important;
+}
+
+.x-grid3-td-topic b {
+    font-family:tahoma, verdana;
+    display:block;
+}
+.x-grid3-td-topic b i {
+    font-weight:normal;
+    font-style: normal;
+    color:#000;
+}
+.x-grid3-td-topic .x-grid3-cell-inner {
+    white-space:normal;
+}
+.x-grid3-td-topic  {
+    color: #385F95;
+    text-decoration:none;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+.x-grid3-td-visitor  {
+    color: #385F95;
+    text-decoration:none;
+	font-weight: 500;
+}
+
+.x-grid3-td-topic :hover {
+    text-decoration:underline;
+}
+.details .x-btn-text {
+    background-image: url(details.gif);
+}
+.x-resizable-pinned .x-resizable-handle-south{
+    background:url(../../resources/images/default/sizer/s-handle-dark.gif);
+    background-position: top;
+}

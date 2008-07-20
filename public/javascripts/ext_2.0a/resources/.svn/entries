@@ -1,0 +1,64 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/public/javascripts/ext_2.0a/resources
+http://tools.assembla.com/svn/thieungu
+
+
+
+2007-10-23T14:06:49.897288Z
+789
+dangkhoa
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+license.txt
+file
+
+
+
+
+2008-07-20T10:24:07.000000Z
+31e08b1f98c581bdf217f697bfc91b3a
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+
+legacy
+dir
+
+images
+dir
+
+resources.jsb
+file
+
+
+
+
+2008-07-20T10:24:07.000000Z
+f1a239e5cf0bf5221b4e6d9ff06b2a59
+2007-10-20T07:55:57.691683Z
+737
+dangkhoa
+
+css
+dir
+
+raw-images
+dir
+

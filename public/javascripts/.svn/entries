@@ -1,0 +1,46 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/public/javascripts
+http://tools.assembla.com/svn/thieungu
+
+
+
+2008-06-15T00:29:54.354408Z
+986
+dungtn
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+ext_2.0a
+dir
+
+jquery_1_2_1
+dir
+
+vinova
+dir
+
+thieungu_1_0_0
+dir
+
+capture_mouse_pos
+dir
+
+copy-script
+dir
+

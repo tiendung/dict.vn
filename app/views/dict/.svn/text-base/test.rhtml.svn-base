@@ -1,0 +1,40 @@
+<html>
+<head>
+
+  <%= stylesheet_link_tag( "ext/resources/css/ext-all", "ext/resources/css/xtheme-aero" ) %>
+
+
+  <% javascript_include_tag( "ext_1_1_gzip" ) %>
+  <%= javascript_include_tag( "ext_1_0_1_gzip" ) %>
+  <%= javascript_include_tag( "jquery", "utilities" ) %>
+  
+   		
+  <link rel="stylesheet" type="text/css" href="../stylesheets/ajaxian/ext/accordion/accordion.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/ajaxian/ext/accordion/highligt.css">
+  <script type="text/javascript" src="../javascripts/ext_1_0_1/accordion/accordion.js"></script>	
+  <script type="text/javascript" src="../javascripts/ext_1_0_1/accordion/Ext.ux.Accordion.js"></script>
+  <script type="text/javascript" src="../javascripts/ext_1_0_1/accordion/Ext.ux.InfoPanel.js"></script>
+
+
+</head>
+<body>
+  	<div id="acc-ct" style="width:200px;height:300px;border:1px solid silver">
+  <div id="panel-1">
+    <div>My first panel</div>
+    <div>
+      <div class="text-content">My first panel content</div>
+    </div>
+  </div>
+  <div id="panel-2">
+    <div>My second panel</div>
+    <div>
+      <div class="text-content">My second panel content</div>
+    </div>
+  </div>
+</div>
+
+<div id="ipanel-4"></div>
+
+	
+</body>
+</html>

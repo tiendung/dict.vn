@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/thieungu/!svn/ver/907/com.thieungu.dictionary/trunk/lib/thieu_ngu
+END
+linguistics.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/thieungu/!svn/ver/737/com.thieungu.dictionary/trunk/lib/thieu_ngu/linguistics.rb
+END
+dict_parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/thieungu/!svn/ver/854/com.thieungu.dictionary/trunk/lib/thieu_ngu/dict_parser.rb
+END
+jsmin.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/thieungu/!svn/ver/895/com.thieungu.dictionary/trunk/lib/thieu_ngu/jsmin.rb
+END
+wordnet_dict_parser.rb
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/thieungu/!svn/ver/816/com.thieungu.dictionary/trunk/lib/thieu_ngu/wordnet_dict_parser.rb
+END
+compressJS.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/thieungu/!svn/ver/907/com.thieungu.dictionary/trunk/lib/thieu_ngu/compressJS.rb
+END

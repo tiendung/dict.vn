@@ -1,0 +1,9 @@
+<%= form_tag( {:action => "spam"}, :multipart => true) %>
+  <label for="name">Name of recipient:</label>
+  <%= text_field_tag "name" %><br />
+  <label for="email">Email address to send to:</label>
+  <%= text_field_tag "email" %><br />
+  <label for="file">File to upload:</label>
+  <%= file_field_tag "file" %><br />
+  <%= submit_tag "Spam!" %>
+<%= end_form_tag %>

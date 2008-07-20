@@ -1,0 +1,40 @@
+8
+
+dir
+986
+http://tools.assembla.com/svn/thieungu/com.thieungu.dictionary/trunk/app
+http://tools.assembla.com/svn/thieungu
+
+
+
+2008-05-28T10:05:48.195139Z
+981
+dinhhai
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+899c1e23-4631-0410-bf47-c045fa274665
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+views
+dir
+
